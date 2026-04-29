@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Landing Page</title>
 
   <link href="./src/output.css" rel="stylesheet">
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
-<body class="bg-gray-50 text-gray-800">
+
+<body class="bg-gray-50 text-gray-800" style="font-family: 'Archivo', sans-serif;">
+
   <!-- Top Black Bar -->
-<section class="bg-neutral-800 text-white text-sm py-2 px-6 flex items-center justify-between">
-<div class="">
-    <!-- Left text -->
-    <p class="flex items-center gap-2 whitespace-nowrap">
-      See what's new in Delphi, C++ Builder, and RAD Studio
-      <a href="#" class="text-white underline ">Watch The Replay</a>
-    </p>
-</div>
+  <section class="bg-neutral-800 text-white text-sm py-2 px-6 flex items-center justify-between">
+    <div class="">
+      <!-- Left text -->
+      <p class="flex items-center gap-2 whitespace-nowrap">
+        See what's new in Delphi, C++ Builder, and RAD Studio
+        <a href="#" class="text-white underline ">Watch The Replay</a>
+      </p>
+    </div>
     <!-- Right menu -->
     <div class=" ">
 
@@ -34,84 +39,202 @@
       <i class="fa-solid fa-cart-shopping cursor-pointer px-2"></i>
       <i class="fa-solid fa-globe cursor-pointer px-2"></i>
 
-    </div> 
+    </div>
   </section>
 
-<!--Navbar Section-->
-<section class=" text-neutral-800 py-6 px-25 flex justify-around">
-  <div class="px[280px] py[38px]">
-<img src="../src/image/Frame 811285.png" alt="Embarcadero Logo">
-  </div>
-<navbar class="px [495px] py[21px]flex gap-4">
-    <a href="#" class="hover:underline ">Products<i class="fa-solid fa-chevron-down fa-xs"></i></a>
-    <a href="#" class="hover:underline " >Free Tools<i class="fa-solid fa-chevron-down fa-xs"></i></a>
-    <a href="#" class="hover:underline">Blog</a>
-    <a href="#" class="hover:underline">Resources<i class="fa-solid fa-chevron-down fa-xs"></i></a>
-    <a href="#" class="hover:underline ">Getit</a>
-    <a href="#" class="hover:underline ">New Tools</a>
-</navbar>
-<div class=" px[280px] py[38px]flex gap-2">
- <span class="font-family-archivo font-base-archivo ">Sign In</span>
-    <button class="bg-white text-black px-4 py-1 rounded hover:bg-black-500 border border-neutral-800 font-base-archivo ">Buy Now</button>
-    <button class="bg-neutral-800 text-white px-4 py-1 rounded hover:bg-neutral-500 border border-neutral-800 font-base-archivo ">Free Trial</button>
-</div>
-  </section>
-<section class=" text-neutral-800 py-6 px-25 flex justify-around ">
-  <div class="px[350px] py[21px] flex gap-2">
-   <a href="#" class="hover:underline ">Home <i class="fa-solid fa-chevron-right fa-xs"></i></a>
-   <a href="#" class="hover:underline ">Products <i class="fa-solid fa-chevron-right fa-xs"></i></a>
-  <a href="#" class="text-rose-600 ">What's New in the RAD Studio 11.2 </a>
-  </div>
-  <div class="px[412px] py[21px] flex gap-4">
-    <a href="#" class="text-neutral-800 underline ">Whats's New ? </a>
-    <a href="#" class="text-neutral-800 underline ">Product Edition</a>
-    <a href="#" class="text-neutral-800 underline ">Previous Version </a>
-    <a href="#" class="text-neutral-800 underline ">Customers</a>
+  <!--Navbar Section-->
+  <section class="text-neutral-800 py-6 px-10 flex items-center justify-between font-archivo">
+    <!-- Left Logo -->
+    <div class="px-[20px] py-[10px]">
+      <img src="./image/Frame 811285.png" alt="Embarcadero Logo">
     </div>
-</section>
-<section class=" text-neutral-800 py-6 px-25 flex justify-center flex-col items-center gap-4">
-  <div class="px[657px] py[40px] flex gap-2">
-    <h1 class="text-4xl font-bold font-family-archivo">What's New in </h1>
-    <h1 class="text-4xl font-bold font-family-archivo">RAD Studio 11.2</h1>
-  </div>
-    <p class="text-lg font-base-archivo">Quality-Focused Release With New Tools and IDE Enhancements, Improved Usability, </p>
+    <!-- Center Navbar -->
+    <div class="flex gap-6 items-center">
+      <a href="#" class=" flex items-center gap-1">
+        Products <i class="fa-solid fa-chevron-down text-[10px] align-middle relative top-[2px]"></i> </a>
+      <a href="#" class=" flex items-center gap-1">
+        Free Tools <i class="fa-solid fa-chevron-down text-[10px] align-middle relative top-[2px]"></i> </a>
+      <a href="#" class="">Blog</a>
+      <a href="#" class=" flex items-center gap-1">
+        Resources <i class="fa-solid fa-chevron-down text-[10px] align-middle relative top-[2px]"></i> </a>
+      <a href="#" class="">Getit</a>
+      <a href="#" class="">New Tools</a>
+    </div>
+    <!-- Right Buttons -->
+    <div class="flex items-center gap-3 px-[20px] py-[10px]">
+      <span class="font-archivo">Sign In</span>
+      <button class="bg-white text-black px-4 py-1 rounded border border-neutral-800"> Buy Now </button>
+      <button class="bg-neutral-800 text-white px-4 py-1 rounded border border-neutral-800">Free Trial</button>
+    </div>
+
+  </section>
+  <section class=" text-neutral-800 py-6 px-25 flex justify-around ">
+    <div class="px[350px] py[21px] flex gap-2">
+      <a href="#" class="hover:underline ">Home <i class="fa-solid fa-angles-right fa-xs fa-neutral-800"></i></a>
+      <a href="#" class="hover:underline ">Products <i class="fa-solid fa-angles-right fa-xs fa-neutral-800"></i></a>
+      <a href="#" class="text-rose-600 ">What's New in the RAD Studio 11.2 </a>
+    </div>
+    <div class="px[412px] py[21px] flex gap-4">
+      <a href="#" class="text-neutral-800 underline ">Whats's New ? </a>
+      <span>-</span>
+      <a href="#" class="text-neutral-800 underline ">Product Edition</a>
+      <span>-</span>
+      <a href="#" class="text-neutral-800 underline ">Previous Version </a>
+      <span>-</span>
+      <a href="#" class="text-neutral-800 underline ">Customers</a>
+    </div>
+  </section>
+  <section class=" text-neutral-800 py-6 px-25 flex justify-center flex-col items-center gap-4">
+    <div class="px[657px] py[40px] flex gap-2">
+      <h1 class="text-4xl font-bold font-family-archivo">What's New in </h1>
+      <h1 class="text-4xl font-bold font-family-archivo">RAD Studio 11.2</h1>
+    </div>
+    <p class="text-lg font-base-archivo">Quality-Focused Release With New Tools and IDE Enhancements, Improved
+      Usability, </p>
     <P class="text-lg font-base-archivo">Performance and Stability</P>
     <section class="flex gap-4">
-    <button class="bg-neutral-800 text-white px-4 py-2 rounded hover:bg-neutral-500 border border-neutral-800 ">Start Your Free Trial</button>
-    <button class="bg-white text-black px-4 py-1 rounded hover:bg-black-500 border border-neutral-800 ">Request a product demo</button>
-</section>
-</section>
-<section class=" text-neutral-800 py-6 px-25 flex justify-center flex-col items-center gap-4">
-  <img src="../src/image/Video Frame.png" alt="Video Frame">
+      <button class="bg-neutral-800 text-white px-4 py-2 rounded hover:bg-neutral-500 border border-neutral-800 ">Start
+        Your Free Trial</button>
+      <button class="bg-white text-black px-4 py-1 rounded hover:bg-black-500 border border-neutral-800 ">Request a
+        product demo</button>
+    </section>
   </section>
-  <section class="flex gap-4 px[1011px] py[59px] justify-center items-center bg-grey-100 py-6">
-    <div class="px[48px] py[48px] flex gap-2">
-  <img src="../src/image/image 22.png" alt="logo">
+  <section class="text-neutral-800 py-6 px-25 flex justify-center flex-col items-center gap-4">
+    <img src="./image/Video Frame.png" alt="Video Frame">
+  </section>
+  <section class="flex justify-center py-6 bg-grey-100 ">
+    <div class="flex items-center justify-between px-6 bg-gray-200 rounded-lg w-[1274px] h-[107px]">
+      <div class="flex  gap-4">
+      <img src="./image/image 22.png" alt="logo" class="h-[50px] object-contain">
+      <div class="flex flex-col gap-1">
+        <p class="text-lg font-base-archivo font-semibold">RAD Studio 11.2 Resources</p>
+        <p class="text-lg font-base-archivo">PDF's Videos & Courses of the Product</p>
+      </div>
+      </div>
+      <button class="h-[50px] bg-neutral-800 text-white px-6 py-2 rounded-md text-sm hover:bg-neutral-700">View
+        Resources</button>
     </div>
-  <div class="flex flex-col px[947px] py[59px]">
-  <p class="text-lg font-base-archivo font-semibold">RAD Studio 11.2 Resources</p>
-  <p class="text-lg font-base-archivo">PDF's Videos & Courses of the Product</p>
-</div>
-<div class="px[167px] py[43px] flex gap-2">
-  <button class="bg-neutral-800 text-white px-4 py-2 rounded hover:bg-neutral-500 border border-neutral-800">View Resources</button>
-</div>
-</section>
- <section class="flex gap-4 py-8 justify-center items-center">
-  <h2 class="text-lg font-base-archivo font-bold">New Features in 11.2</h2>
- </section>
- <section=class="flex gap-4 py-8 justify-center items-center">
-  <div class="px[1274px] py[500px] flex gap-2 flex-col ">
-    <h2 class="text-lg font-archivo font-semibold">Delphi IOS Simulator</h2>
-    <p class="text-lg font-archivo leading-7 space-y-2">
-  RAD Studio 11.2 now supports the iOS Simulator for Delphi.<br>
-  You can create simulator apps for macOS devices using ARM-64 chips like M1 and M2.<br>
-  This makes it easier to test apps on different Apple devices.<br>
-  Developers can try multiple screen sizes and form factors.<br>
-  No need to buy actual hardware for testing.
-</p>
-<img src="../src/image/Image Container.png " alt="Simulator"class="block ml-auto py[500px]">
-  </div>
- </section>
-</body>
-</html>
+    </div>
+  </section>
 
+  <section class="flex gap-4 py-15 justify-center items-center">
+    <h1 class="text-3xl font-base-archivo font-bold">New Features in 11.2</h1>
+  </section>
+  <div class="mx-auto flex justify-center items-center  w-[1274px] h-[500px]">
+    <div class=" flex flex-col gap-4 px-6 ">
+      <h2 class="text-lg font-archivo font-semibold">Delphi IOS Simulator</h2>
+      <p class="text-lg font-archivo leading-7">
+        RAD Studio 11.2 offers iOS Simulator support for the Delphi language, <br>
+        with the ability to generate iOS Simulator binaries for macOS <br>
+        devices running on ARM-64 (M1 or M2 CPUs). This enables developers to test<br>
+        their Delphi applications on different Apple devices and on multiple <br>
+        form factors using the iOS Simulator, without the need to buy the <br>
+        specific hardware.
+      </p>
+    </div>
+
+    <div class="w-1/2 flex justify-center">
+      <img src="./image/Image Container (4).png" alt="Simulator" class="w-[500px] h-[500px] object-contain">
+    </div>
+  </div>
+  <div class="mx-auto flex justify-center items-center w-[1274px] h-[500px]">
+    <div class="w-1/2 flex justify-center">
+      <img src="./image/Image Container (1).png" alt="Simulator" class="w-[500px] h-[500px] object-contain">
+    </div>
+    <div class=" flex flex-col gap-4 px-6 ">
+      <h2 class="text-lg font-archivo font-semibold">Support for Android API Level 32</h2>
+      <p class="text-lg font-archivo leading-7">
+        The IDE targets Android API Level 32 (up from API level 30 in 11.1),<br>
+        which will be required by Google Play in November 2022. Installer has <br>
+        also been updated to offer the Eclipse Temurin JDK 11, required by the <br>
+        latest Android SDK tools.
+      </p>
+    </div>
+  </div>
+  <div class="mx-auto flex justify-center items-center w-[1274px] h-[500px]">
+    <div class=" flex flex-col gap-4 px-6 ">
+      <h2 class="text-lg font-archivo font-semibold">LLDB for Delphi for Linux</h2>
+      <p class="text-lg font-archivo leading-7">
+        Delphi’s Linux toolchain previously used GDB for debugging. 11.2 <br>
+        switches to LLDB, which provides a strong quality improvement both in <br>
+        features and in Delphi language syntax support. LLDB has been <br>
+        upgraded to version 12 and adopted for the iOS Simulator, along with <br>
+        existing use of LLDB for C++ Win64, and Delphi macOS, iOS, and <br>
+        Android 64 platforms.
+      </p>
+    </div>
+
+    <div class="w-1/2 flex justify-center">
+      <img src="./image/Image Container (2).png" alt="Simulator" class="w-[500px] h-[500px] object-contain">
+    </div>
+  </div>
+  <div class="mx-auto flex justify-center items-center w-[1274px] h-[500px]">
+    <div class="w-1/2 flex justify-center">
+      <img src="./image/Image Container (3).png" alt="Simulator" class="w-[500px] h-[500px] object-contain">
+    </div>
+    <div class=" flex flex-col gap-4 px-6 ">
+      <h2 class="text-lg font-archivo font-semibold">IDE Support for Markdown, VCL-Based HTML preview</h2>
+      <p class="text-lg font-archivo leading-7">
+        Open and edit Markdown (.md) files and see a rich text rendered view <br>
+        of it in the Preview tab. The Markdown rendering includes support for <br>
+        tables and other special tags. Similarly, HTML files are rendered as <br>
+        formatted HTML within the IDE with a new native VCL-based viewer. <br>
+        The Project Page Options dialog now allows users to specify a <br>
+        Markdown file in alternative to an HTML file as the “project page” or <br>
+        readme
+      </p>
+    </div>
+  </div>
+  <section class="flex gap-4 py-10 justify-center items-center">
+    <h1 class="text-3xl font-base-archivo font-bold">Milestone Innovations Since</h1>
+    <h1 class="text-3xl font-base-archivo font-bold">11.0 Alexandria</h1>
+  </section>
+  <div class="mx-auto flex justify-center items-center w-[1274px] h-[500px]">
+    <div class=" flex flex-col gap-4 px-6 ">
+      <h2 class="text-lg font-archivo font-semibold">C++Builder CodeInsight Update</h2>
+      <p class="text-lg font-archivo leading-7">
+        The C++Builder Code Insight Update is a quality release for C++ <br>
+        Builder and RAD Studio customers using C++, focusing on improving <br>
+        code completion and related features for C++.
+      </p>
+    </div>
+
+    <div class="w-1/2 flex justify-center">
+      <img src="./image/Image Container (5).png" alt="Simulator" class="w-[500px] h-[500px] object-contain">
+    </div>
+  </div>
+
+  <div class="mx-auto flex justify-center items-center w-[1274px] h-[500px]">
+    <div class="w-1/2 flex justify-center">
+      <img src="./image/Image Container (6).png" alt="Simulator" class="w-[500px] h-[500px] object-contain">
+    </div>
+    <div class=" flex flex-col gap-4 px-6 ">
+      <h2 class="text-lg font-archivo font-semibold"> Improved IDE And User Experience!</h2>
+      <p class="text-lg font-archivo leading-7">
+        The RAD Studio IDE has been updated with the goal of further <br>
+        improving features introduced in recent versions. The new IDE <br>
+        combines the high-DPI support with improvements to remote desktop  <br>
+         access for closer and more effective team collaboration.
+      </p>
+    </div>
+  </div>
+  <div class="mx-auto flex justify-center items-center w-[1274px] h-[500px]">
+    <div class=" flex flex-col gap-4 px-6 ">
+      <h2 class="text-lg font-archivo font-semibold"> Improved Code Insight!</h2>
+      <p class="text-lg font-archivo leading-7">
+        RAD Studio 11.2 offers iOS Simulator support for the Delphi language, <br>
+        with the ability to generate iOS Simulator binaries for macOS <br>
+        devices running on ARM-64 (M1 or M2 CPUs). This enables developers to test their <br>
+        their Delphi applications on different Apple devices and on multiple <br>
+        form factors using the iOS Simulator, without the need to buy the <br>
+        specific hardware.
+      </p>
+    </div>
+
+    <div class="w-1/2 flex justify-center">
+      <img src="./image/Image Container (7).png" alt="Simulator" class="w-[500px] h-[500px] object-contain">
+    </div>
+  </div>
+</body>
+
+</html>
