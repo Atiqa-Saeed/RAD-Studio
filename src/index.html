@@ -15,38 +15,64 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
 
+
 </head>
 
-<body class="bg-white text-gray-800" style="font-family: 'Archivo', sans-serif;">
+<body class="bg-white text-gray-800" style="font-family: 'Archivo', sans-serif; ">
 
   <!--Navbar Section-->
   <section>
     <!-- Top Bar -->
-    <div class="bg-neutral-800 text-white text-sm ">
-      <div class="max-w-[1920px] mx-auto h-[56px] flex items-center justify-between px-10">
+    <div class="flex-row bg-neutral-800 text-white text-sm max-w-full ">
 
-        <p class="flex items-center gap-[8px] whitespace-nowrap">
-          See what's new in Delphi, C++ Builder, and RAD Studio
-          <a href="#" class="underline">Watch The Replay</a>
+      <div
+        class="max-w-[1920px] mx-auto min-h-[56px] flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-0 px-4 sm:px-6 lg:px-10 py-3">
+
+        <!-- Left Side -->
+        <p class="flex flex-wrap items-center justify-center lg:justify-start gap-2 text-center lg:text-left">
+          <span>See what's new in Delphi, C++ Builder, and RAD Studio</span>
+
+          <a href="#" class="underline whitespace-nowrap"> Watch The Replay
+          </a>
         </p>
+        <!-- Right Side -->
+        <div
+          class="flex flex-wrap items-center justify-center lg:justify-end sm:gap-6 lg:gap-8 text-center overflow:hidden ">
 
-        <div class="flex items-center gap-[32px]">
-          <span class="hover:underline px-2">My Downloads</span>
-          <span class="hover:underline px-2">Upgrade Center</span>
-          <span class="hover:underline px-2">My Customer Portal</span>
-          <span class="hover:underline px-2">Contact Us</span>
+          <span class="hover:underline cursor-pointer whitespace-nowrap">
+            My Downloads
+          </span>
+
+          <span class="hover:underline cursor-pointer whitespace-nowrap">
+            Upgrade Center
+          </span>
+
+          <span class="hover:underline cursor-pointer whitespace-nowrap">
+            My Customer Portal
+          </span>
+
+          <span class="hover:underline cursor-pointer whitespace-nowrap">
+            Contact Us
+          </span>
+
           <!-- Icons -->
-          <div class=" gap-[16px] flex items-center">
-            <img src="./image/Vector.png" alt="Magnifying glass" class="max-w-[20px]">
-            <img src="./image/Group 1000003433.png" alt="Magnifying glass" class="max-w-[20px]">
-            <img src="./image/Vector (1).png" alt="Globe" class="max-w-[20px]">
+          <div class="flex items-center gap-4">
+            <img src="./image/Vector.png" alt="Search" class="max-w-5 h-5 object-contain">
+
+            <img src="./image/Group 1000003433.png" alt="Cart" class="max-w-5 h-5 object-contain">
+
+            <img src="./image/Vector (1).png" alt="Globe" class="max-w-5 h-5 object-contain">
           </div>
+
         </div>
+
       </div>
+
     </div>
 
     <!-- Navbar -->
-    <div class="max-w-[1920px] mx-auto py-6 px-55 flex items-center justify-between text-neutral-800">
+    <div
+      class="max-w-[1920px] mx-auto min-h-[56px] flex flex-col lg:flex-row md:flex-row items-center justify-between gap-4 lg:gap-0 px-4 sm:px-6 lg:px-10 py-3 text-neutral-800 ">
 
       <img src="./image/Frame 811285.png" alt="Logo">
 
@@ -98,54 +124,57 @@
 
   </section>
 
-<!-- Hero Section -->
-<section class="py-20">
+  <!-- Hero Section -->
+  <section class="py-20">
 
-  <!-- Main Content Wrapper -->
-  <div class="max-w-[1274px] mx-auto px-6 flex flex-col items-center gap-16">
+    <!-- Main Content Wrapper -->
+    <div class="max-w-[1274px] mx-auto px-6 flex flex-col items-center gap-16">
 
-    <!-- Text + Buttons -->
-    <div class="flex flex-col items-center gap-6 text-center max-w-[752px]">
-      <h1 class="text-[48px] font-bold text-neutral-800">
-        What's New in RAD Studio 11.2
-      </h1>
-      
-      <p class="text-[18px] leading-7 text-neutral-600">
-        Quality-Focused Release With New Tools and IDE Enhancements, Improved 
-        Usability, Performance and Stability
-      </p>
+      <!-- Text + Buttons -->
+      <div class="flex flex-col items-center gap-6 text-center max-w-[752px]">
+        <h1 class="text-[48px] font-bold text-neutral-800">
+          What's New in RAD Studio 11.2
+        </h1>
 
-      <div class="flex gap-4 mt-4">
-        <button class="bg-neutral-800 text-white px-6 py-3 rounded-lg hover:bg-neutral-700 border border-neutral-800 transition">
-          Start Your Free Trial
-        </button>
-        <button class="bg-white text-neutral-800 px-6 py-3 rounded-lg hover:bg-neutral-100 border border-neutral-800 transition">
-          Request a Product Demo
-        </button>
-      </div>
-    </div>
+        <p class="text-[18px] leading-7 text-neutral-600">
+          Quality-Focused Release With New Tools and IDE Enhancements, Improved
+          Usability, Performance and Stability
+        </p>
 
-    <!-- Video -->
-    <img src="./image/Video Frame.png" alt="Video Frame" class="rounded-xl">
-
-    <!-- Resources Banner -->
-    <div class="w-full max-w-[1274px]">
-      <div class="flex items-center justify-between px-6 h-[107px] border border-neutral-200 rounded-lg bg-neutral-50">
-        <div class="flex gap-4">
-          <img src="./image/image 22.png" alt="logo" class="object-contain">
-          <div class="flex flex-col gap-1">
-            <p class="text-lg font-semibold">RAD Studio 11.2 Resources</p>
-            <p class="text-lg">PDF's Videos & Courses of the Product</p>
-          </div>
+        <div class="flex gap-4 mt-4">
+          <button
+            class="bg-neutral-800 text-white px-6 py-3 rounded-lg hover:bg-neutral-700 border border-neutral-800 transition">
+            Start Your Free Trial
+          </button>
+          <button
+            class="bg-white text-neutral-800 px-6 py-3 rounded-lg hover:bg-neutral-100 border border-neutral-800 transition">
+            Request a Product Demo
+          </button>
         </div>
-        <button class="bg-neutral-800 text-white px-6 py-2 rounded-md text-sm hover:bg-neutral-700 transition">
-          View Resources
-        </button>
+      </div>
+
+      <!-- Video -->
+      <img src="./image/Video Frame.png" alt="Video Frame" class="rounded-xl">
+
+      <!-- Resources Banner -->
+      <div class="w-full max-w-[1274px]">
+        <div
+          class="flex items-center justify-between px-6 h-[107px] border border-neutral-200 rounded-lg bg-neutral-50">
+          <div class="flex gap-4">
+            <img src="./image/image 22.png" alt="logo" class="object-contain">
+            <div class="flex flex-col gap-1">
+              <p class="text-lg font-semibold">RAD Studio 11.2 Resources</p>
+              <p class="text-lg">PDF's Videos & Courses of the Product</p>
+            </div>
+          </div>
+          <button class="bg-neutral-800 text-white px-6 py-2 rounded-md text-sm hover:bg-neutral-700 transition">
+            View Resources
+          </button>
+        </div>
       </div>
     </div>
-  </div>
 
-</section>
+  </section>
 
   <!-- New Features Section -->
   <section class="max-w-[1274px] mx-auto flex flex-col py-30">
@@ -280,101 +309,111 @@
   </section>
 
   <!--Features To Help You Accomplish More -->
-  <section class="mx-auto flex flex-col items-center w-full max-w-[1536px]">
+  <section class="mx-auto flex flex-col items-center max-w-[1536px] max-[1441px]:max-w-[1280px]">
 
-    <div class="flex gap-4 justify-center items-center py-5">
+    <div class="flex gap-4 justify-center items-center">
       <h1 class="text-[48px] font-bold">Features To Help You Accomplish More</h1>
     </div>
-  <!-- Tabs Container -->
-<div class="flex w-full max-w-[1536px] mx-auto mt-12">
-  <div class="bg-white border border-gray-300 rounded-xl h-[73px] flex items-center">
-    
-    <div class="flex mx-auto items-center gap-3">
-      
-      <button class="h-[57px] min-w-[217.14px] px-6 bg-neutral-800 text-white rounded-xl text-sm hover:bg-neutral-700 transition whitespace-nowrap">
-        IDE
-      </button>
-      
-      <button class="h-[57px] min-w-[217.14px] px-6 rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
-        VCL
-      </button>
-      
-      <button class="h-[57px] min-w-[217.14px] px-6 rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
-        FMX
-      </button>
-      
-      <button class="h-[57px] min-w-[217.14px] px-6 rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
-        Platforms
-      </button>
-      
-      <button class="h-[57px] min-w-[217.14px] px-6 rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
-        RTL
-      </button>
-      
-      <button class="h-[57px] min-w-[217.14px] px-6 rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
-        LSP
-      </button>
-      
-      <button class="h-[57px] min-w-[217.14px] px-6 rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
-        Data
-      </button>
+    <!-- Tabs Container -->
+     <div class="flex max-w-[1536px] max-[1441px]:max-w-[1280px] mt-12">
+      <div class="bg-white border border-gray-300 rounded-xl flex items-center">
 
-    </div>
-  </div>
-</div>
+        <div class="flex mx-auto items-center gap-3">
 
- <div class="flex max-w-[1536px] px-8 md:px-30 h-[520px] justify-center items-center gap-6 mt-8 mx-auto">
-    
-    <!-- Image -->
-    <img src="./image/Frame 10.png" alt="Simulator" 
-         class="object-contain max-w-[883px] flex-shrink-0">
+          <button
+            class="h-[57px] max-w-[217.14px] px-6 bg-neutral-800 text-white rounded-xl text-sm hover:bg-neutral-700 transition whitespace-nowrap max-[1440px]:max-w-[150px]">
+            IDE
+          </button>
 
-    <!-- Right Side Content -->
-    <div class="max-w-[653px] px-4 flex-shrink-0">
-        <ul class="text-[17px] h-[520px] overflow-y-auto pr-4 space-y-4">
-            
-            <li class="flex gap-3">
-                <span class="text-neutral-800 mt-1.5 text-xl  flex-shrink-0">•</span>
-                <span>High-DPI support to the IDE, covering the latest 4k+ monitors, and cleaner and sharper fonts and icons throughout</span>
-            </li>
+          <button
+            class="h-[57px] max-w-[217.14px] px-6 rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap max-[1440px]:max-w-[150px]">
+            VCL
+          </button>
 
-            <li class="flex gap-3">
-                <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
-                <span>Multi-monitor and multi-window improvements: design and edit code for the same form at the same time in multiple windows</span>
-            </li>
+          <button
+            class="h-[57px] max-w-[217.14px] px-6 rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap max-[1440px]:max-w-[150px]">
+            FMX
+          </button>
 
-            <li class="flex gap-3">
-                <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
-                <span>Completely rebuilt Welcome Page with a native look and feel, and a UI that fits the IDE, and customizable layout and content</span>
-            </li>
+          <button
+            class="h-[57px] max-w-[217.14px] px-6 rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap max-[1440px]:max-w-[150px] ">
+            Platforms
+          </button>
 
-            <li class="flex gap-3">
-                <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
-                <span>C++ Code Formatter: Automate the layout of your C++ code using clang-format</span>
-            </li>
+          <button
+            class="h-[57px] max-w-[217.14px] px-6 rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap max-[1440px]:max-w-[150px]">
+            RTL
+          </button>
 
-            <li class="flex gap-3">
-                <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
-                <span>IDE support for Markdown documents and VCL-based HTML preview.</span>
-            </li>
+          <button
+            class="h-[57px] max-w-[217.14px] px-6 rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap max-[1440px]:max-w-[150px]">
+            LSP
+          </button>
 
-            <li class="flex gap-3">
-                <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
-                <span>Inactive code highlighting in the Code Editor.</span>
-            </li>
+          <button
+            class="h-[57px] max-w-[217.14px] px-6 rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap max-[1440px]:max-w-[150px]">
+            Data
+          </button>
 
-            <li class="flex gap-3">
-                <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
-                <span>Improved remote desktop support for VCL and IDE</span>
-            </li>
+        </div>
+      </div>
+    </div> 
 
-            <li class="flex gap-3">
-                <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
-                <span>FireMonkey design-time guidelines: Prototype faster with visual lines and enhanced margin and padding support</span>
-            </li>
+    <div class="flex max-w-[1536px] max-[1441px]:max-w-[1280px] justify-center items-center gap-6 mt-8 mx-auto">
+
+      <!-- Image -->
+      <img src="./image/Frame 10.png" alt="Simulator" class="object-contain">
+
+      <!-- Right Side Content -->
+      <div class="max-[1920px]:max-w-[653px] flex-shrink-0 max-[1440px]:max-w-[547px]">
+        <ul class="text-[17px] overflow-y-auto space-y-4">
+
+          <li class="flex gap-3">
+            <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
+            <span>High-DPI support to the IDE, covering the latest 4k+ monitors, and cleaner and sharper fonts and icons
+              throughout</span>
+          </li>
+
+          <li class="flex gap-3">
+            <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
+            <span>Multi-monitor and multi-window improvements: design and edit code for the same form at the same time
+              in multiple windows</span>
+          </li>
+
+          <li class="flex gap-3">
+            <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
+            <span>Completely rebuilt Welcome Page with a native look and feel, and a UI that fits the IDE, and
+              customizable layout and content</span>
+          </li>
+
+          <li class="flex gap-3">
+            <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
+            <span>C++ Code Formatter: Automate the layout of your C++ code using clang-format</span>
+          </li>
+
+          <li class="flex gap-3">
+            <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
+            <span>IDE support for Markdown documents and VCL-based HTML preview.</span>
+          </li>
+
+          <li class="flex gap-3">
+            <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
+            <span>Inactive code highlighting in the Code Editor.</span>
+          </li>
+
+          <li class="flex gap-3">
+            <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
+            <span>Improved remote desktop support for VCL and IDE</span>
+          </li>
+
+          <li class="flex gap-3">
+            <span class="text-neutral-800 mt-1.5 text-xl flex-shrink-0">•</span>
+            <span>FireMonkey design-time guidelines: Prototype faster with visual lines and enhanced margin and padding
+              support</span>
+          </li>
         </ul>
-    </div>
-</div>
+      </div>
+    </div> 
   </section>
 
   <!--Get RAD Studio now-->
@@ -403,69 +442,69 @@
   <!-- Learn More On Embarcadero Blog -->
   <section class="mx-auto mt-24 flex flex-col items-center">
 
-    <div class="max-w-[1920px] h-[236px] flex items-center gap-4">
+    <div class="max-w-[1920px] flex items-center gap-4 max-[1441px]:max-w-[1280px]">
       <h1 class="text-[48px] font-bold"> Learn More On the Embarcadero Blog</h1>
       <img src="./image/Arrow 5.png" alt="Arrow" class="max-w-[108px] h-[56px] object-contain">
     </div>
-    <div class="w-full max-w-[1920px] flex gap-[32px] mt-20 px-55">
-      <div class="flex flex-col gap-3 max-w-[466px] gap-[16px]">
+    <div class="max-w-[1920px] flex gap-[32px] mt-20 max-[1441px]:max-w-[1280px]">
+      <div class="flex flex-col gap-[3px] max-w-[466px] gap-[16px]">
         <p class="text-xs ">Learning & Development</p>
         <h1 class="text-[32px] gap-[24px] font-bold">3 Main C++ Compiler Tips to Develop Successful Apps</h1>
         <a href="#" class="text-neutral-800 underline">
-          Read More <i class="fas fa-arrow-right ml-2"></i></a>
+          Read More <span class="fas fa-arrow-right ml-2"></span></a>
       </div>
 
-      <div class="flex flex-col gap-3 max-w-[466px] gap-[16px]">
+      <div class="flex flex-col max-w-[466px] gap-[16px]">
         <p class="text-xs ">Learning & Development</p>
-        <h1 class="text-[32px] gap-[24px] font-bold">Top 5 Platforms for Windows Applications Development in 2022</h1>
+        <h1 class="text-[32px] font-bold">Top 5 Platforms for Windows Applications Development in 2022</h1>
         <a href="#" class="text-neutral-800 underline">
-          Read More <i class="fas fa-arrow-right ml-2"></i></a>
+          Read More <span class="fas fa-arrow-right ml-2"></span></a>
       </div>
 
-      <div class="flex flex-col gap-3 max-w-[466px] gap-[16px]">
-        <p class="text-xs ">Learning & Development</p>
-        <h1 class="text-[32px] gap-[24px] font-bold">Everything You Need to Know About Cross-Platform Development</h1>
+      <div class="flex flex-col max-w-[466px] gap-[16px]">
+        <p class="text-xs">Learning & Development</p>
+        <h1 class="text-[32px] font-bold">Everything You Need to Know About Cross-Platform Development</h1>
         <a href="#" class="text-neutral-800 underline">
-          Read More <i class="fas fa-arrow-right ml-2"></i></a>
+          Read More <span class="fas fa-arrow-right ml-2"></span></a>
       </div>
     </div>
 
     <div class="flex items-center mt-12">
-      <img src="./image/Line 37.png" alt="Line" class="max-w-[1536px] h-[1px] object-contain">
+      <img src="./image/Line 37.png" alt="Line" class="max-w-[1536px] h-[1px] max-[1441]:max-w-[1280px] object-contain">
     </div>
 
-    <div class="w-full max-w-[1920px] flex gap-[32px] mt-20 px-55">
-      <div class="flex flex-col gap-3 max-w-[466px] gap-[16px]">
+    <div class="max-w-[1920px] flex gap-[32px] mt-20 max-[1441px]:max-w-[1280px]">
+      <div class="flex flex-col max-w-[466px] gap-[16px]">
         <p class="text-xs ">Learning & Development</p>
-        <h1 class="text-[32px] gap-[24px] font-bold">A Complete Guide To Programming in C++ Visual Programming</h1>
+        <h1 class="text-[32px] font-bold">A Complete Guide To Programming in C++ Visual Programming</h1>
         <a href="#" class="text-neutral-800 underline">
-          Read More <i class="fas fa-arrow-right ml-2"></i></a>
+          Read More <span class="fas fa-arrow-right ml-2"></span></a>
       </div>
 
-      <div class="flex flex-col  gap-3 max-w-[466px] gap-[16px]">
+      <div class="flex flex-col max-w-[466px] gap-[16px]">
         <p class="text-xs">Learning & Development</p>
-        <h1 class="text-[32px] gap-[24px] font-bold">A Complete Guide To Oriented Programming In C++ Object-Oriented
-          Programming</h1>
+        <h1 class="text-[32px] font-bold">A Complete Guide To Oriented Programming In C++ Object-Oriented Programming
+        </h1>
         <a href="#" class="text-neutral-800 underline">
-          Read More <i class="fas fa-arrow-right ml-2"></i></a>
+          Read More <span class="fas fa-arrow-right ml-2"></span></a>
       </div>
 
-      <div class="flex flex-col gap-3 max-w-[466px] gap-[16px]">
+      <div class="flex flex-col max-w-[466px] gap-[16px]">
         <p class="text-xs">Learning & Development</p>
-        <h1 class="text-[32px] gap-[24px] font-bold">How C++ Works With Libraries and More</h1>
+        <h1 class="text-[32px] font-bold">How C++ Works With Libraries and More</h1>
         <a href="#" class="text-neutral-800 underline">
-          Read More <i class="fas fa-arrow-right ml-2"></i></a>
+          Read More <span class="fas fa-arrow-right ml-2"></span></a>
       </div>
     </div>
 
   </section>
 
   <!--Join Our Global Developer Community-->
-  <section class="max-w-[1920px] h-[640px] mx-auto mt-30">
+  <section class="flex max-w-[1920px] gap-[32px] justify-center mt-30 max-[1441px]:max-w-[1440px] ">
 
-    <div class="flex items-center px-55">
+    <div class=" mt-20 max-w-[1280px]  ">
 
-      <div class="flex flex-col gap-4 w-1/2">
+      <div class="flex flex-col gap-[4px] max-w-[633px] max-[1441px]:max-w-[537px]">
         <h1 class="text-[48px] font-semibold max-w-[633px]">
           Join Our Global Developer Community
         </h1>
@@ -474,7 +513,7 @@
           Join our email list and receive the latest case studies, event updates, product news, and much more.
         </p>
 
-        <div class="flex items-center gap-3">
+        <div class="flex items-center gap-[3px]">
           <label class="max-w-[400px] border border-neutral-300 rounded-md text-gray-600 px-30 py-2">
             Your Email
           </label>
@@ -485,10 +524,9 @@
         </div>
       </div>
 
-      <div class="w-1/2 flex justify-center">
-        <img src="./image/Frame.png" alt="Arrow" class="object-contain max-w-[882px]">
-      </div>
-
+    </div>
+    <div class="max-w-[881.62px] flex justify-center max-[1441px]:max-w-[734px]">
+      <img src="./image/Frame.png" alt="Arrow" class="object-contain">
     </div>
 
   </section>
