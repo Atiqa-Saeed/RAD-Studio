@@ -17,14 +17,14 @@
 <body class="bg-white text-gray-800" style="font-family: 'Archivo', sans-serif;">
 
   <!--Navbar Section-->
-  <section class="w-full">
+  <section class="w-full bg-white">
 
     <!-- Top Bar -->
-    <div class="bg-neutral-800 text-white text-sm">
-      <div class="max-w-[1920px] max-[1441px]:max-w-[1440px] max-[1441px]:px-8 max-[631px]:flex-col mx-auto min-h-[56px] flex flex-row items-center justify-between px-10">
+    <div class="w-full bg-neutral-800 text-white text-sm overflow-x-hidden">
+      <div class="max-w-[1920px] max-[1441px]:max-w-[1440px] max-[1441px]:px-8 max-[631px]:flex-col max-[631px]:w-full mx-auto min-h-[56px] flex flex-row items-center justify-between px-10 max-[475px]:px-4">
 
         <!-- Left Side -->
-        <p class="flex items-center flex-wrap gap-2 max-[744px]:text-center max-[744px]:justify-center ">
+        <p class="flex items-center flex-wrap gap-2 max-[744px]:text-center max-[744px]:justify-center">
           <span>See what's new in Delphi, C++ Builder, and RAD Studio</span>
           <a href="#" class="underline whitespace-nowrap">Watch The Replay</a>
         </p>
@@ -48,17 +48,17 @@
 
     <!-- Navbar -->
 <div class="border-gray-100">
-  <div class="w-full max-w-[1920px] max-[1441px]:max-w-[1440px] mx-auto min-h-[56px] grid grid-cols-3 items-center px-10 max-[1441px]:px-8 text-neutral-800">
+  <div class="w-full max-w-[1920px] max-[1441px]:max-w-[1440px] mx-auto min-h-[56px] grid grid-cols-3 max-[1101px]:grid-cols-2 px-10 max-[1441px]:px-8 text-neutral-800">
 
     <!-- Left -->
     <div class="flex justify-start">
-      <img src="./image/Frame 811285.png" alt="Logo" class="max-w-[447px] h-[30px] object-contain">
+      <img src="./image/Frame 811285.png" alt="Logo" class="object-contain">
     </div>
 
     <!-- Center -->
-    <div class="flex gap-[24px] max-[1441px]:gap-[16px] items-center justify-center max-[1101px]:invisible">
+    <div class="flex gap-[24px] max-[1441px]:gap-[16px] items-center justify-center max-[1101px]:hidden">
 
-      <a href="#" class="flex items-center gap-[4px] whitespace-nowrap">
+      <a href="#" class="flex items-center gap-[4px]">
         Products<span class="fa-solid fa-chevron-down text-[10px] relative top-[2px]"></span>
       </a>
 
@@ -66,13 +66,13 @@
         Free Tools<span class="fa-solid fa-chevron-down text-[10px] relative top-[2px]"></span>
       </a>
 
-      <a href="#" class="whitespace-nowrap">Blog</a>
+      <a href="#">Blog</a>
 
-      <a href="#" class="flex items-center gap-[4px] whitespace-nowrap">
+      <a href="#" class="flex items-center gap-[4px] ">
         Resources<span class="fa-solid fa-chevron-down text-[10px] relative top-[2px]"></span>
       </a>
 
-      <a href="#" class="whitespace-nowrap">Getit</a>
+      <a href="#">Getit</a>
 
       <a href="#" class="whitespace-nowrap">New Tools</a>
     </div>
@@ -108,14 +108,14 @@
           <span class="fa-solid fa-angles-right text-xs text-neutral-400"></span>
           <a href="#" class="text-rose-600">What's New in the RAD Studio 11.2</a>
         </div>
-        <div class="flex gap-[8px] max-[971px]:mt-[20px] max-[744px]:flex-wrap max-[497px]:justify-center max-[375px]:text-[12px] max-[375px]:gap-[6px]">
+        <div class="flex gap-[8px] max-[971px]:mt-[20px] max-[744px]:flex-wrap max-[497px]:justify-center max-[397px]:text-[14px] max-[375px]:text-[12px] max-[375px]:gap-[4px]">
           <a href="#" class="underline whitespace-nowrap">What's New?</a>
           <span>-</span>
           <a href="#" class="underline whitespace-nowrap">Product Edition</a>
           <span>-</span>
-          <a href="#" class="underline whitespace-nowrap max-[375px]:hidden">Previous Version</a>
-          <span class="max-[375px]:hidden">-</span>
-          <a href="#" class="underline whitespace-nowrap max-[375px]:hidden">Customers</a>
+          <a href="#" class="underline whitespace-nowrap">Previous Version</a>
+          <span class="min-[375px]:hidden">-</span>
+          <a href="#" class="underline whitespace-nowrap">Customers</a>
         </div>
       </div>
     </div>
@@ -166,16 +166,16 @@
   </section>
 
   <!-- New Features Section -->
-  <section class="max-[1441px]:max-w-[1280px] mx-auto px-6 max-[744px]:px-4 max-[375px]:px-3 flex flex-col py-20 max-[1441px]:py-16 max-[744px]:py-10 gap-20 max-[744px]:gap-12">
+  <section class="max-w-[1274px] max-[1441px]:max-w-[1280px] mx-auto px-6 max-[744px]:px-4 max-[375px]:px-3 flex flex-col max-[1441px]:py-16 max-[744px]:py-10 gap-20 max-[744px]:gap-12">
 
     <div class="flex gap-4 justify-center items-center">
-      <h1 class="text-[40px] font-bold">New Features in 11.2</h1>
+      <h1 class="text-[40px] font-bold max-[428px]:text-[32px] max-[341px]:text-[28px]">New Features in 11.2</h1>
     </div>
 
     <!-- Feature 1 -->
     <div class="flex justify-center items-center gap-12 max-[1441px]:gap-8 max-[876px]:flex-col max-[876px]:max-w-[696px] max-[744px]:flex-col max-[744px]:gap-6">
-      <div class="flex flex-col gap-4 max-[744px]:w-full">
-        <h2 class="text-[32px] max-[1441px]:text-[28px] max-[744px]:text-[22px] max-[375px]:text-[20px] font-semibold">Delphi IOS Simulator</h2>
+    <div class="flex flex-col gap-4 max-[744px]:w-full">
+    <h2 class="text-[32px] max-[1441px]:text-[28px] max-[744px]:text-[22px] max-[375px]:text-[20px] font-semibold">Delphi IOS Simulator</h2>
         <p class="text-lg max-[744px]:text-base max-[375px]:text-[13px] leading-7 max-w-[621px] max-[744px]:max-w-full">
           RAD Studio 11.2 offers iOS Simulator support for the Delphi language, with the ability to generate iOS Simulator binaries for macOS devices running on ARM-64 (M1 or M2 CPUs). This enables developers to test their Delphi applications on different Apple devices and on multiple form factors using the iOS Simulator, without the need to buy the specific hardware.
         </p>
@@ -285,45 +285,45 @@
   <section class="mx-auto flex flex-col items-center max-[1921px]:max-w-[1536px] max-[1591px]:max-w-[1420px] max-[1441px]:max-w-[1280px] max-[1292px]:max-w-[1190px] max-[1200px]:max-w-[1180px] max-[1180px]:max-w-[1100px] max-[1110px]:max-w-[1025px] max-[1060px]:max-w-[1020px] max-[1025px]:max-w-[960px] max-[999px]:max-w-[950px] max-[961px]:max-w-[900px] max-[911px]:max-w-[850px] max-[744px]:px-4 max-[375px]:px-3 max-[744px]:py-8">
 
     <div class="flex gap-4 justify-center items-center">
-      <h1 class="text-[48px] max-[1441px]:text-[40px] max-[745px]:text-[36px] max-[375px]:text-[22px] font-bold text-center">Features To Help You Accomplish More</h1>
+      <h1 class="text-[48px] max-[1441px]:text-[40px] max-[745px]:text-[36px] max-[390px]:text-[25px] font-bold">Features To Help You Accomplish More</h1>
     </div>
 
     <!-- Tabs Container -->
 <div class="mx-auto max-[876px]:max-w-[696px] max-[876px]:w-full">
-  <div class="bg-white border border-gray-300 rounded-xl flex items-center justify-between max-w-[1536px] gap-4 max-[501px]:overflow-auto">
+  <div class="bg-white border border-gray-300 max-[501px]:border-r-0 rounded-xl flex items-center justify-between max-w-[1536px] gap-4 max-[501px]:overflow-x-auto max-[501px]:flex-nowrap max-[501px]:px-2 max-[376px]:gap-0.5 overflow-invisible">
 
-    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 h-[57px] bg-neutral-800 text-white rounded-xl text-sm hover:bg-neutral-700 transition whitespace-nowrap">
+    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 max-[501px]:min-w-[105px] max-[376px]:min-w-[90px] flex-shrink-0 h-[57px] bg-neutral-800 text-white rounded-xl text-sm hover:bg-neutral-700 transition whitespace-nowrap">
       IDE
     </button>
 
-    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 h-[57px] rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
+    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 max-[501px]:min-w-[105px] max-[376px]:min-w-[90px] flex-shrink-0 h-[57px] rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
       VCL
     </button>
 
-    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 h-[57px] rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
+    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 max-[501px]:min-w-[105px] max-[376px]:min-w-[90px] flex-shrink-0 h-[57px] rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
       FMX
     </button>
 
-    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 h-[57px] rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
+    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 max-[501px]:min-w-[105px] max-[376px]:min-w-[90px] flex-shrink-0 h-[57px] rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
       Platforms
     </button>
 
-    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 h-[57px] rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
+    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 max-[501px]:min-w-[105px] max-[376px]:min-w-[90px] flex-shrink-0 h-[57px] rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
       RTL
     </button>
 
-    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 h-[57px] rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
+    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 max-[501px]:min-w-[105px] max-[376px]:min-w-[90px] flex-shrink-0 h-[57px] rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
       LSP
     </button>
 
-    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 h-[57px] rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
+    <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 max-[501px]:min-w-[105px] max-[376px]:min-w-[90px] flex-shrink-0 h-[57px] rounded-xl text-sm hover:bg-gray-100 transition whitespace-nowrap">
       Data
     </button>
 
   </div>
 
     <!-- Tab Content -->
-<div class="flex justify-center items-stretch gap-6 mt-10 mx-auto max-[876px]:flex-col">
+<div class="flex justify-center items-stretch gap-6 mt-10 mx-auto max-[876px]:flex-col max-w-[1536px]">
 
   <!-- Image -->
   <div class="flex-1 max-[876px]:w-full">
@@ -363,25 +363,25 @@
 </div>
 
 </div>
-  </section>
+</section>
 
   <!--Get RAD Studio now-->
-  <section class="w-full flex items-center justify-center flex-col gap-8 mx-auto bg-neutral-50 mt-25 h-[562px]">
+  <section class="w-full max-w-[1274px] max-[1441px]:max-w-[1280px] flex items-center justify-center flex-col gap-8 mx-auto bg-neutral-50 mt-25 h-[562px]">
     <div class="flex justify-center items-center">
       <h1 class="text-[48px] font-bold text-center">Get RAD Studio Now</h1>
     </div>
     <div class="flex justify-center items-center gap-4">
       <p class="text-lg text-center">One Code Base, Native on any platform, Fast frame Work</p>
     </div>
-    <div class="flex justify-center items-center gap-[32px] max-[375px]:gap-[16px] flex-wrap">
-      <img src="./image/Image 22.png" alt="Platform" class="w-[64px] h-[64px] max-[375px]:w-[48px] max-[375px]:h-[48px] object-contain">
-      <img src="./image/image 19.png" alt="Platform" class="w-[64px] h-[64px] max-[375px]:w-[48px] max-[375px]:h-[48px] object-contain">
-      <img src="./image/image 20.png" alt="Platform" class="w-[64px] h-[64px] max-[375px]:w-[48px] max-[375px]:h-[48px] object-contain">
-      <img src="./image/image 21.png" alt="Platform" class="w-[64px] h-[64px] max-[375px]:w-[48px] max-[375px]:h-[48px] object-contain">
-      <img src="./image/image 23.png" alt="Platform" class="w-[64px] h-[64px] max-[375px]:w-[48px] max-[375px]:h-[48px] object-contain">
+    <div class="flex justify-center items-center gap-[32px] max-[375px]:gap-[16px]">
+      <img src="./image/Image 22.png" alt="Platform" class="w-[64px] h-[64px] max-[448px]:w-[50px] max-[448px]:h-[48px] max-[378px]:w-[40px] max-[378px]:h-[40px] object-contain">
+      <img src="./image/image 19.png" alt="Platform" class="w-[64px] h-[64px] max-[448px]:w-[50px] max-[448px]:h-[48px] max-[378px]:w-[40px] max-[378px]:h-[40px] object-contain">
+      <img src="./image/image 20.png" alt="Platform" class="w-[64px] h-[64px] max-[448px]:w-[50px] max-[448px]:h-[48px] max-[378px]:w-[40px] max-[378px]:h-[40px] object-contain">
+      <img src="./image/image 21.png" alt="Platform" class="w-[64px] h-[64px] max-[448px]:w-[50px] max-[448px]:h-[48px] max-[378px]:w-[40px] max-[378px]:h-[40px] object-contain">
+      <img src="./image/image 23.png" alt="Platform" class="w-[64px] h-[64px] max-[448px]:w-[50px] max-[448px]:h-[48px] max-[378px]:w-[40px] max-[378px]:h-[40px] object-contain">
     </div>
-    <div class="flex justify-center items-center">
-      <button class="bg-neutral-800 text-white px-6 py-2 rounded-md text-sm hover:bg-neutral-700">Download Now</button>
+    <div class="flex justify-center items-center max-[501px]:w-full">
+    <button class="max-[501px]:w-full bg-neutral-800 text-white px-6 py-2 rounded-md text-sm hover:bg-neutral-700">Download Now</button>
     </div>
   </section>
 
@@ -524,9 +524,9 @@
   </section>
 
   <!--footer -->
-<section class="max-w-full max-w-[1920px] mx-auto relative mt-20 px-10 max-[1441px]:max-w-[1440px] max-[1650px]:h-auto">
+<section class="w-full max-w-[1920px] mx-auto relative mt-20 px-10 max-[1441px]:max-w-[1440px] max-[1650px]:h-auto max-[375px]:px-4">
 
-  <div class="max-w-full flex justify-between max-[1650px]:flex-col max-[1650px]:gap-12">
+  <div class="flex  max-w-[1920px] justify-between max-[1650px]:flex-col max-[1650px]:gap-12 max-[1441px]:max-w-[1440px] max-[1441px]:px-8 max-[631px]:flex-col max-[631px]:w-full">
 
     <!-- Logo -->
     <div class="flex flex-col">
@@ -537,7 +537,7 @@
     </div>
 
     <!-- Footer Links -->
-    <div class="flex flex-wrap gap-12 max-[1650px]:justify-between">
+    <div class="grid grid-cols-6 gap-12 max-[1650px]:grid-cols-6 max-[901px]:grid-cols-4 max-[744px]:grid-cols-3 max-[601px]:grid-cols-2 max-[375px]:gap-8 w-full">
 
       
       <div class="flex flex-col gap-[26px] text-gray-800">
@@ -549,7 +549,14 @@
           <span class="text-[16px]">INTERBASE<sup>®</sup></span>
           <span class="text-[16px]">RAD SERVER <sup>TM</sup></span>
         </div>
+        <div class="flex flex-col gap-[26px] text-gray-800 min-[601px]:hidden" >
+        <h1 class="text-[20px] font-bold">Community</h1>
+        <div class="flex text-gray-600 flex-col gap-[24px]">
+        <span class="text-[16px]">Blogs</span>
+        </div>
       </div>
+      </div>
+      
 
       <div class="flex flex-col gap-[26px] text-gray-800">
         <h1 class="text-[20px] font-bold">Free Tools</h1>
@@ -563,6 +570,7 @@
           <span class="text-[16px]">DEV-C++</span>
         </div>
       </div>
+
 
       <div class="flex flex-col gap-[26px] text-gray-800">
         <h1 class="text-[20px] font-bold">Resources</h1>
@@ -579,7 +587,7 @@
       </div>
 
 
-      <div class="flex flex-col gap-[26px] text-gray-800 " >
+      <div class="flex flex-col gap-[26px] text-gray-800 max-[601px]:hidden" >
         <h1 class="text-[20px] font-bold">Community</h1>
         <div class="flex text-gray-600 flex-col gap-[24px]">
           <span class="text-[16px]">Blogs</span>
@@ -598,12 +606,12 @@
         </div>
       </div>
 
-      <div class="flex flex-col gap-[26px] text-gray-800">
+      <div class="flex flex-col gap-[26px] text-gray-800 w-full">
         <h1 class="text-[20px] font-bold">Get In Touch</h1>
-        <div class="flex text-gray-600 flex-col gap-[24px] ">
-          <span class="text-[16px]">US: 1(512) 226-808</span>
-          <span class="text-[16px]">DE: +49 (0)6103-3866-100</span>
-          <span class="text-[16px]">info@embarcadero.com</span>
+        <div class="flex text-gray-600 flex-col gap-[24px] w-full">
+          <span class="text-[16px] whitespace-nowrap">US: 1(512) 226-808</span>
+          <span class="text-[16px] whitespace-nowrap">DE: +49 (0)6103-3866-100</span>
+          <span class="text-[16px] whitespace-nowrap">info@embarcadero.com</span>
         </div>
       </div>
 
