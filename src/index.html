@@ -125,7 +125,7 @@
     Buy Now
   </button>
 
-  <button class="bg-neutral-800 text-white hover:bg-white hover:text-black px-4 py-1 rounded-md border whitespace-nowrap flex-shrink-0">
+  <button class="bg-neutral-800 text-white hover:bg-white hover:text-black px-4 py-1 rounded-md border whitespace-nowrap flex-shrink-0 max-[355px]:px-3 max-[355px]:py-0.5 max-[355px]:text-[13px] max-[315px]:px-2 max-[315px]:text-[12px] max-[300px]:hidden">
     Free Trial
   </button>
 <img src="./image/Hamburger.png" alt="Hamburger Menu" class="max-w-5 h-5 object-contain cursor-pointer min-[745px]:hidden">
@@ -141,7 +141,7 @@
           <a href="#">Home</a>
           <span class="fa-solid fa-angles-right text-xs text-neutral-400"></span>
           <a href="#">Products</a>
-          <span class="fa-solid fa-angles-right text-xs text-neutral-400"></span>
+          <span class="fa-solid fa-angles-right text-xs text-neutral-400 "></span>
           <a href="#" class="text-rose-600">What's New in the RAD Studio 11.2</a>
         </div>
         <div class="flex gap-[8px] max-[971px]:mt-[20px] max-[744px]:flex-wrap max-[497px]:justify-center max-[397px]:text-[14px] max-[375px]:text-[12px] max-[375px]:gap-[4px]">
@@ -171,10 +171,10 @@ pointer-events-none">
 </div>
 
   <!-- Hero Section -->
-<section class="max-[1441px]:py-16 max-[744px]:py-10 max-[375px]:py-8">
+<section class="relative overflow-hidden">
 
 <!-- cyan Gradient  -->
-<div class="absolute top-[300px] left-0 w-[600px] h-[800px] blur-[500px] bg-[rgba(6,182,212,1)]
+<div class="absolute top-[300px] left-0 w-[370px] h-[400px] blur-[500px] bg-[rgba(6,182,212,1)]
 max-[745px]:h-[500px]
 max-[600px]:w-[300px]
 max-[600px]:h-[400px]
@@ -218,8 +218,8 @@ pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,
  <div class="max-w-[1274px] max-[1441px]:max-w-[1280px] mx-auto px-6 max-[744px]:px-4 max-[375px]:px-3 flex flex-col items-center gap-16 max-[1441px]:gap-12 max-[744px]:gap-8">
 
       <!-- Text + Buttons -->
-      <div class="flex flex-col items-center gap-6 text-center max-w-[752px] max-[1441px]:max-w-[620px] max-[744px]:max-w-full">
-       <h1 class="text-[48px] max-[1441px]:text-[40px] max-[744px]:text-[32px] max-[375px]:text-[26px] font-bold leading-tight">
+      <div class="flex flex-col items-center gap-6 text-center max-w-[752px] max-[1441px]:max-w-[750px] max-[744px]:max-w-[600px] max-[375px]:max-w-full">
+       <h1 class="text-[48px] max-[375px]:text-[26px] font-bold leading-tight">
        What's New in <span class="bg-[linear-gradient(78.21deg,#FE3B76_8.63%,#AF29CE_50.01%,#2931DD_91.38%,#2931DD_91.38%)] bg-clip-text text-transparent">
        RAD Studio 11.2</span>
       </h1>
@@ -258,10 +258,11 @@ pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,
   </section>
 
   <!-- New Features Section -->
-<section class="max-w-[1274px] max-[1441px]:max-w-[1280px] mx-auto px-6 max-[744px]:px-4 max-[375px]:px-3 flex flex-col gap-20">
+<section class="relative max-w-[1274px] max-[1441px]:max-w-[1280px] mx-auto px-6 max-[744px]:px-4 max-[375px]:px-3 flex flex-col gap-10 max-[1975px]:py-20 max-[1441px]:py-10 max-[375px]:py-8">
 
 <!-- Cyan Gradient-->
- <div class="absolute top-[1500px] left-0 w-[750px] h-[906px] blur-[500px] bg-[rgba(6,182,212,1)]
+ <div class="absolute top-[1500px] left-0 w-[750px] h-[600px] blur-[500px] bg-[rgba(6,182,212,1)]
+  max-[1600px]:blur-[700px]
   max-[850px]:w-[500px]
   max-[600px]:w-[300px]
   max-[600px]:h-[400px]
@@ -275,7 +276,7 @@ pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,
     </div>
 
     <!-- Feature 1 -->
-    <div class="flex justify-center items-center gap-12 max-[1441px]:gap-8 max-[876px]:flex-col max-[744px]:flex-col max-[744px]:gap-6">
+   <div class="grid grid-cols-2 max-[876px]:grid-cols-1 items-center gap-10">
     <div class="flex flex-col gap-4 max-[744px]:w-full">
     <h2 class="text-[32px] max-[1441px]:text-[28px] max-[744px]:text-[22px] max-[375px]:text-[20px] font-semibold">Delphi IOS Simulator</h2>
       <p class="text-lg max-[744px]:text-base max-[375px]:text-[13px] leading-7 max-w-[621px] max-[876px]:max-w-full max-[744px]:max-w-full">
@@ -289,6 +290,7 @@ pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,
 
 <!-- Purple Gradient -->
  <div class="absolute top-[1650px] right-0 w-[500px] h-[644px] blur-[500px] bg-[rgba(99,102,241,1)]
+   max-[1600px]:blur-[700px]
   max-[600px]:w-[300px]
   max-[600px]:h-[400px]
   max-[600px]:blur-[300px]
@@ -327,16 +329,15 @@ pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,
       </div>
     </div>
 
-    <!--Pink Gradient -->
-  <div class="absolute top-[2500px] right-0 w-[600px] h-[650px] blur-[600px] bg-[rgba(220,38,38,1)]
-max-[600px]:w-[300px]
-max-[600px]:h-[700px]
-max-[600px]:blur-[500px]
-max-[500px]:w-[250px]
-max-[500px]:h-[600px]
-max-[500px]:blur-[500px]
-pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,1) 0%, rgba(9,138,161,0) 70%);">
-</div>
+    <!--Purple Gradient -->
+ <div class="absolute top-[2500px] right-0 w-[600px] h-[650px] blur-[600px] bg-[rgba(220,38,38,1)]
+   max-[1600px]:blur-[700px]
+  max-[600px]:w-[300px]
+  max-[600px]:h-[700px]
+  max-[500px]:w-[250px]
+  max-[500px]:h-[600px]
+  pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,1) 0%, rgba(9,138,161,0) 70%);">
+  </div>
 
     <!-- Feature 4 -->
     <div class="flex justify-center items-center gap-12 max-[1441px]:gap-8 max-[876px]:flex-col max-[744px]:gap-6">
@@ -357,12 +358,12 @@ pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,
 
 <!--purple Gradient-->
   <div class="absolute top-[3400px] left-0 w-[500px] h-[678px] blur-[500px] bg-[rgba(99,102,241,1)]
+  max-[1600px]:blur-[700px]
+  max-[901px]:blur-[1000px]
   max-[600px]:w-[300px]
   max-[600px]:h-[400px]
-  max-[600px]:blur-[300px]
   max-[500px]:w-[180px]
   max-[500px]:h-[220px]
-  max-[500px]:blur-[180px]
   pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,1) 0%, rgba(9,138,161,0) 70%);">
   </div>
 
@@ -371,12 +372,15 @@ pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,
 
   <!-- Cyan Gradient -->
   <div class="absolute top-[3400px] right-0 w-[750px] h-[731px] blur-[500px] bg-[rgba(6,182,212,1)]
+  max-[1600px]:blur-[700px]
+  max-[901px]:blur-[1000px]
+  max-[850px]:h-[500px]
   max-[850px]:w-[500px]
   max-[600px]:w-[300px]
   max-[600px]:h-[400px]
   max-[500px]:w-[180px]
   max-[500px]:h-[220px]
-  pointer-events-none" style="background: radial-gradient(circle, rgba(6,182,212,1) 0%,rgba(6,182,212,0) 60%);">
+  pointer-events-none" style="background: radial-gradient(circle, rgba(6,182,212,1) 0%,rgba(6,182,212,0) 70%);">
   </div>
 
     <div class="flex gap-4 justify-center items-center">
@@ -398,12 +402,12 @@ pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,
 
   <!-- Purple Gradient -->
   <div class="absolute top-[3400px] left-0 w-[400px] h-[497px] blur-[500px] bg-[rgba(99,102,241,1)]
+  max-[1600px]:blur-[900px]
+  max-[901px]:blur-[1000px]
   max-[600px]:h-[397px]
   max-[600px]:w-[250px]
-  max-[600px]:blur-[250px]
   max-[500px]:w-[150px]
   max-[500px]:h-[180px]
-  max-[500px]:blur-[150px]
   pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,1) 0%, rgba(9,138,161,0) 70%);">
 </div>
 
@@ -425,6 +429,9 @@ pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,
 
 <!--Purple Gradient-->
   <div class="absolute top-[4550px] right-20 w-[497px] h-[497px] blur-[500px] bg-[rgba(99,102,241,1)]
+  max-[1600px]:blur-[900px]
+  max-[901px]:blur-[1000px]
+  max-[850px]:h-[400px]
   max-[600px]:w-[300px]
   max-[600px]:h-[400px]
   max-[500px]:w-[180px]
@@ -447,14 +454,14 @@ pointer-events-none" style="background: radial-gradient(circle, rgba(99,102,241,
   </section>
 
   <!--Features To Help You Accomplish More -->
-  <section class="mx-auto flex flex-col items-center max-[1921px]:max-w-[1536px] max-[1591px]:max-w-[1420px] max-[1441px]:max-w-[1280px] max-[1292px]:max-w-[1190px] max-[1200px]:max-w-[1180px] max-[1180px]:max-w-[1100px] max-[1110px]:max-w-[1025px] max-[1060px]:max-w-[1020px] max-[1025px]:max-w-[960px] max-[999px]:max-w-[950px] max-[961px]:max-w-[900px] max-[911px]:max-w-[850px] max-[744px]:px-4 max-[375px]:px-3 max-[744px]:py-8">
+  <section class="mx-auto flex flex-col items-center max-[1921px]:max-w-[1536px] max-[1591px]:max-w-[1420px] max-[1441px]:max-w-[1280px] max-[1292px]:max-w-[1190px] max-[1200px]:max-w-[1180px] max-[1180px]:max-w-[1100px] max-[1110px]:max-w-[1025px] max-[1060px]:max-w-[1020px] max-[1025px]:max-w-[960px] max-[999px]:max-w-[950px] max-[961px]:max-w-[900px] max-[911px]:max-w-[850px] max-[744px]:px-4 max-[375px]:px-3 max-[1921px]:py-20 max-[1441px]:py-16 max-[744px]:py-10 max-[375px]:py-8">
 
     <div class="flex gap-4 justify-center items-center">
-      <h1 class="text-[48px] max-[1441px]:text-[40px] max-[870px]:text-[36px] max-[745px]:text-[36px] max-[697px]:text-[32px] max-[390px]:text-[30px] font-bold">Features To Help You <span class="bg-gradient-to-r from-[#FE3B76] via-[#7B3FF2] to-[#2931DD] bg-clip-text text-transparent inline-block">Accomplish More </span> </h1>
+      <h1 class="text-[48px] max-[1441px]:text-[40px] max-[870px]:text-[36px] max-[745px]:text-[36px] max-[697px]:text-[32px]  max-[623px]:text-[30px]  max-[586px]:text-[28px] max-[549px]:text-[26px] max-[512px]:text-[24px] max-[475px]:text-[35px] max-[380px]:text-[30px] max-[323px]:text-[28px] max-[303px]:text-[26px] max-[283px]:text-[24px] max-[263px]:text-[22px] max-[243px]:text-[20px] max-[223px]:text-[18px] max-[203px]:text-[16px] font-bold">Features To Help You <span class="bg-gradient-to-r from-[#FE3B76] via-[#7B3FF2] to-[#2931DD] bg-clip-text text-transparent inline-block">Accomplish More </span> </h1>
     </div>
 
     <!-- Tabs Container -->
-<div class="mx-auto max-[876px]:max-w-[696px] max-[876px]:w-full">
+<div class="mx-auto max-[876px]:max-w-[696px] max-[876px]:w-full max-[1921px]:py-10 max-[1441px]:py-8 max-[744px]:py-6 max-[375px]:py-4">
   <div class="bg-white border border-gray-300 max-[551px]:border-r-0 rounded-xl flex items-center justify-between max-w-[1536px] gap-4 max-[551px]:overflow-x-auto max-[551px]:flex-nowrap max-[551px]:px-2 max-[376px]:gap-0.5 scrollbar-hide">
 
     <button class="max-[1920px]:max-w-[217.14px] max-[1300px]:max-w-[180px] flex-1 max-[551px]:min-w-[105px] max-[376px]:min-w-[90px] flex-shrink-0 h-[57px] bg-neutral-800 text-white rounded-xl text-sm hover:bg-white hover:text-black transition whitespace-nowrap">
@@ -850,7 +857,7 @@ max-[500px]:top-[150px]" style="background: radial-gradient(circle, rgba(99,102,
     </svg>
   </div>
 
-  <span class="text-[14px] whitespace-nowrap max-[532px]:text-center">
+  <span class="text-[14px] whitespace-nowrap max-[532px]:text-center max-[260px]:text-[12px] max-[260px]:whitespace-normal">
     2022 Embarcadero Inc. All rights reserved
   </span>
 
